@@ -5,7 +5,7 @@ Array.from(buttons).forEach((button) => {
     if (e.target.innerHTML == "=") {
       string = eval(string);
       document.querySelector("input").value = string;
-    } else if (e.target.innerHTML == "AC") {
+    }else if (e.target.innerHTML == "AC") {
       string = "";
       document.querySelector("input").value = string;
     }else if (e.target.innerHTML == "DE") {
